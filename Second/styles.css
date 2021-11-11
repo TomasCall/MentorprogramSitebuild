@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.pop-up-class{
+    width: 500px;
+    height: 150px;
+
+    background-color:#006633;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250px,-75px);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 151.19%;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #006633;
+    border-radius: 16px;
+}
+
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 151.19%;
+    /* or 30px */
+
+    text-align: center;
+
+    /* Fehér */
+
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 0.75em;
+}
+#second{
+    font-weight: normal;
+}
+#cancel{
+    width: 114px;
+    height: 40px;
+
+    background: #BFBFBF;
+    /* MAIN / LIGHT / 01 */
+
+    border : 1px solid #F2F2F2;
+
+
+}
+#cancel:hover{
+    background-color: gray;
+}
+
+#delete{
+    width: 88px;
+    height: 40px;
+    /* Színes/Piros */
+    background: #EF3A43;
+    /* Fehér */
+    border: 1px solid #FFFFFF;
+
+}
+
+#delete:hover{
+    background-color: red;
+}
+
+.buttons-div button{
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 8px;
+    border-radius: 8px;
+}
