@@ -7,13 +7,11 @@
 .pop-up-class{
     width: 500px;
     height: 150px;
-
     background-color:#006633;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-250px,-75px);
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -21,7 +19,6 @@
     line-height: 151.19%;
     text-align: center;
     color: #FFFFFF;
-
     background: #006633;
     border-radius: 16px;
 }
@@ -32,12 +29,7 @@ p{
     font-weight: bold;
     font-size: 20px;
     line-height: 151.19%;
-    /* or 30px */
-
     text-align: center;
-
-    /* Fehér */
-
     color: #FFFFFF;
     margin-bottom: 0;
     margin-top: 0.75em;
@@ -48,10 +40,7 @@ p{
 #cancel{
     width: 114px;
     height: 40px;
-
     background: #BFBFBF;
-    /* MAIN / LIGHT / 01 */
-
     border : 1px solid #F2F2F2;
 
 
@@ -63,9 +52,7 @@ p{
 #delete{
     width: 88px;
     height: 40px;
-    /* Színes/Piros */
     background: #EF3A43;
-    /* Fehér */
     border: 1px solid #FFFFFF;
 
 }
