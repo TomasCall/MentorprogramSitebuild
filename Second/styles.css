@@ -2,45 +2,38 @@
 
 *{
     box-sizing: border-box;
-}
-
-.pop-up-class{
-    width: 500px;
-    height: 150px;
-
-    background-color:#006633;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-250px,-75px);
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 151.19%;
-    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
     color: #FFFFFF;
 
+}
+body, html {
+    height: 100%;
+    display: grid;
+}
+.pop-up-class{
+    margin: auto;
+    width: 500px;
+    height: 150px;
+    background-color:#006633;
+    position: absolute;
+    font-style: normal;
+    display: in;
+    font-size: 20px;
+    text-align: center;
     background: #006633;
     border-radius: 16px;
 }
-
-p{
-    font-family: Roboto;
-    font-style: normal;
+.pop-up-class:first-child{
     font-weight: bold;
+}
+p{
+    font-family: "Roboto";
     font-size: 20px;
-    line-height: 151.19%;
-    /* or 30px */
-
+    line-height: 35px;
     text-align: center;
-
-    /* Fehér */
-
-    color: #FFFFFF;
-    margin-bottom: 0;
-    margin-top: 0.75em;
+    margin: 10px auto auto auto;
 }
 #second{
     font-weight: normal;
@@ -48,35 +41,28 @@ p{
 #cancel{
     width: 114px;
     height: 40px;
-
     background: #BFBFBF;
-    /* MAIN / LIGHT / 01 */
-
     border : 1px solid #F2F2F2;
-
-
+    transition: 1s;
 }
+
 #cancel:hover{
-    background-color: gray;
+    background-color: grey;
 }
 
 #delete{
     width: 88px;
     height: 40px;
-    /* Színes/Piros */
     background: #EF3A43;
-    /* Fehér */
     border: 1px solid #FFFFFF;
-
+    transition: 1s;
 }
 
 #delete:hover{
     background-color: red;
 }
-
 .buttons-div button{
-    margin-bottom: 50px;
-    color: white;
+    margin-top: 10px;
     border-radius: 8px;
-    border-radius: 8px;
+    cursor: pointer;
 }

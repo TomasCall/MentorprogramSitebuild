@@ -1,47 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 *{
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 body{
-    font-family: "Roboto";
     background: #E5E5E5;
+}
+body,html{
+    height: 100%;
+    display: grid;
 }
 
 .header-class{
     text-align: center;
-    height: 33.05px;
+    height: 33px;
     font-weight: 900;
     background-color: #006633;
 }
 
-.header-class span{
-    padding: 0;
+#name{
+
     height: 100%;
     display: block;
     background-color: #ffffff;
-    margin: auto 225.18px auto 233.16px;
+    margin: auto 225px auto 233px;
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    text-align: center;
 }
-
 .form-div{
+    margin: auto;
     background-color: white;
     width: 620px;
     height: 220px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-320px,-110px); /*Can also be `fixed`*/
 }
 
 .form-div label{
     color: #006633;
     font-weight: bold;
-    padding-left: 0.30em;
-    margin-left: 82px;
+    margin-left: 100px;
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
@@ -52,7 +52,7 @@ body{
 .form-div input[type="text"]{
     display: block;
     color: #55AE3A;
-    padding: 0.25em;
+    padding-left: 18px;
     font-size: 24px;
     margin-left: 82px;
     width: 450px;
@@ -68,4 +68,22 @@ body{
 #nickname-label{
     display: inline-block;
     margin-top: 22px;
+}
+.triangle-left{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 33px 17px 0 17px;
+    border-color: #006633 transparent transparent transparent;
+    transform: translateX(217px);
+}
+.triangle-right{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 17.5px 33px 17.5px;
+    border-color: transparent transparent #006633 transparent;
+    transform: translateX(378px);
 }
