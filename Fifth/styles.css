@@ -2,7 +2,13 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+    display: grid;
+}
+
 .menu{
+    margin: auto;
     vertical-align: middle;
     display: flex;
     background: #363636;
@@ -10,10 +16,6 @@
     width: 400px;
     height: 60px;
     font-size: 50px;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-200px,-30px);
     border-radius: 80px;
 }
 .menu > div{
@@ -26,7 +28,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-200px,-30px);
+    transform: translate(-200px,-22px);
     padding: auto;
     width: 60px;
     height: 60px;
@@ -41,7 +43,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(150px,-30px);
+    transform: translate(150px,-22px);
     padding: auto;
     width: 60px;
     height: 60px;
