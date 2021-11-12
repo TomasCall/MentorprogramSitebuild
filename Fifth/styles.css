@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
 
 body, html {
@@ -8,23 +11,22 @@ body, html {
 }
 
 .menu{
+    padding-top: 12px;
     margin: auto;
     vertical-align: middle;
     display: flex;
     background: #363636;
-    color: white;
     width: 400px;
     height: 60px;
-    font-size: 50px;
     border-radius: 80px;
 }
 .menu > div{
-    text-align: center;
     width: 100%;
     z-index: 1;
 }
 
 #most-left{
+    padding-top: 12px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,13 +35,11 @@ body, html {
     width: 60px;
     height: 60px;
     background-color: #55AE3A;
-    color: white;
-    text-align: center;
     border-radius: 600px;
-    font-size: 50px;
     z-index: 2;
 }
 #most-right{
+    padding-top: 12px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,10 +48,7 @@ body, html {
     width: 60px;
     height: 60px;
     background-color: #363636;
-    color: white;
-    text-align: center;
     border-radius: 600px;
-    font-size: 50px;
     z-index: 2;
 }
 #left-item{
