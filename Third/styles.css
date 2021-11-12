@@ -2,14 +2,15 @@
 body{
     font-family: "Roboto";
 }
-
+body,html{
+  height: 100%;
+  display: grid;
+}
 .content{
     width: 1334px;
     height: 120px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-667px,-60px);
+	margin: auto;
 }
 
 tr{
