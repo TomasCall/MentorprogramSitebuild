@@ -19,8 +19,8 @@ body,html{
     background-color: #006633;
 }
 
-.header-class span{
-    padding: 5px;
+#name{
+
     height: 100%;
     display: block;
     background-color: #ffffff;
@@ -29,8 +29,8 @@ body,html{
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    text-align: center;
 }
-
 .form-div{
     margin: auto;
     background-color: white;
