@@ -8,42 +8,43 @@
     color: #FFFFFF;
 
 }
-body, html {
-    height: 100%;
-    display: grid;
-}
 .pop-up-class{
-    margin: auto;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     width: 500px;
     height: 150px;
     background-color:#006633;
     position: absolute;
     font-style: normal;
-    display: in;
+    display: block;
     font-size: 20px;
     text-align: center;
-    background: #006633;
     border-radius: 16px;
 }
 .pop-up-class:first-child{
     font-weight: bold;
 }
-p{
-    font-family: "Roboto";
+.line{
     font-size: 20px;
-    line-height: 35px;
+    line-height: 30px;
     text-align: center;
     margin: 10px auto auto auto;
 }
-#second{
+div:nth-child(2){
     font-weight: normal;
 }
 #cancel{
+    margin-right: 23px;
     width: 114px;
     height: 40px;
     background: #BFBFBF;
     border : 1px solid #F2F2F2;
     transition: 1s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #cancel:hover{
