@@ -1,45 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body{
     font-family: "Roboto";
-}
-body,html{
-  height: 100%;
-  display: grid;
+    background-color: #E5E5E5;;
 }
 .content{
     width: 1334px;
     height: 120px;
     position: absolute;
-	margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
-
+table{
+    background-color: white;
+}
 tr{
     width: 1334px;
     height: 120px;
 }
 
 td{
-    padding-left: 15px;
+    padding: auto 15px auto auto;
 }
-
 .message-column{
     text-align: center;
     font-weight: bold;
     font-size: 28px;
     line-height: 33px;
 }
-
-.image{
+.image-column{
     width: 120px;
     height: 120px;
 }
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
 
 .date-column{
-    font-size: 15px;
-    line-height: 33px;
-    padding-left: 100px;
-    padding-right: 70px;
-
+    font-size: 20px;
+    line-height: 23px;
+    padding: auto 70px auto 100px;
+    font-weight: bold;
 }
 
 .menu{
@@ -51,7 +54,6 @@ td{
     width: 60px;
     height: 60px;
     background-color: #006633;
-    /*background-color: #55AE3A;*/
     color: white;
     text-align: center;
     border-radius: 100px;
