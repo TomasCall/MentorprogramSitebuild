@@ -20,10 +20,11 @@ body{
 }
 
 #name{
-    line-height: 33px;
-    display: inline-block;
+    line-height: 28px;
     height: 100%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ffffff;
     margin: auto 225px auto 233px;
     font-weight: 900;
@@ -31,10 +32,7 @@ body{
     text-transform: uppercase;
     text-align: center;
 }
-#icon{
-    vertical-align: middle;
-    margin-bottom: 6px;
-}
+
 
 .form-div{
     position: absolute;
