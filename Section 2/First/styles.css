@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 500px;
+    height: 360px;
+
+    border-radius: 16px;
+
+    background-color: #006633;
+
+    color: white;
+}
+
+input[type="text"]{
+    display: block;
+
+    width: 400px;
+    height: 50px;
+
+    border: 2px solid #55AE3A;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-size: 29px;
+    line-height: 34px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    margin: 20px 50px;
+}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    margin-left: 50px;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 32px;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    margin: 0;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+
+button{
+    cursor: pointer;
+
+    width: 240px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 36px;
+
+    background: #55AE3A;
+    color: white;
+    box-shadow: 0px 1px 2px #1E1E25, 0px 2px 4px #1E1E22;
+    border-radius: 44px;
+    border: 0;
+
+    margin: 30px 130px 36px 130px;
+
+    transition: 1s;
+}
+
+button:hover{
+    background-color: green;
+}
+
+a{
+    color: white;
+}
