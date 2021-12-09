@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+:root {
+    --green: #55AE3A;
+    --yellow: #FFC700;
+    --orange: #DF7E24;
+    --purpule: #9400D3;
+    --blue: #2D8CD8;
+    --red: #E10000;
+}
+
+.icon-div{
+    margin-right: 13px;
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 422px;
+    height: 60px;
+    padding: 0;
+
+    background: #363636;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    padding: 0;
+}
+
+#first:hover{
+    background: var(--green);
+}
+
+#second:hover{
+    background: var(--yellow);
+}
+
+#third:hover{
+    background: var(--orange);
+}
+
+#fourth:hover{
+    background: var(--purpule);
+}
+
+#fifth:hover{
+    background: var(--blue);
+}
+
+#sixth:hover{
+    background: var(--red);
+}
