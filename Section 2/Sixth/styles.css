@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.content{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menus{
+    display: flex;
+    flex-direction: row;
+    background-color: #006633;
+    color: white;
+    height: 38px;
+}
+
+.triangle1{
+    margin-left: 10px;
+	width: 0;
+	height: 0;
+	border-width: 0 0 38px 24px;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+}
+
+.triangle2{
+    margin-right: auto;
+    width: 0;
+	height: 0;
+	border-width: 38px 24px 0 0;
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+}
+
+#sport{
+    font-size: 16px;
+    line-height: 20px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+#time{
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#watch{
+    margin-right: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#date{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+img{
+    width: 700px;
+    height: 362px;
+    margin-bottom: -4px;
+}
+i{
+    font-size: 27px;
+    margin-right: 5px;
+}
