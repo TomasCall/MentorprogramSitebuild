@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+table{
+    width: 1720px;
+}
+
+tr{
+    width: 1720px;
+    height: 56px;
+    padding: 0;
+    margin: 0;
+    background: #006633;
+    font-size: 24px;
+    text-align: left;
+}
+
+#first{
+    width: 57px;
+}
+
+#second{
+    width: 148px;
+}
+
+#third{
+    width: 210px;
+}
+
+#fourth{
+    width: 210px;
+}
+
+#fifth{
+    width: 180px;
+}
+
+#sixth{
+    width: 139px;
+}
+
+#seventh{
+    width:194px;
+}
+
+#eighth{
+    width: 160px;
+}
+
+#ninth{
+    width: auto;
+}
