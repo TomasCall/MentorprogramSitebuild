@@ -15,6 +15,14 @@ div{
     text-align: center;
 }
 
+a > i{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
 #img-logo{
     width: 260px;
     height: 46px;
@@ -85,6 +93,7 @@ div{
     border: 1px solid #F2F2F2;
     border-radius: 60px;
     margin-right: 8px;
+    float: right;
 }
 
 @media screen and (max-width:1420px){
