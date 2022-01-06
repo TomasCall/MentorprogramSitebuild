@@ -15,7 +15,9 @@
 table{
     width: 1720px;
 }
-
+th{
+    margin: 0 !important; 
+}
 tr{
     width: 1720px;
     height: 56px;
