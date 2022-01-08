@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-style: normal;
+}
+
+body{
+    background-color: gray;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: white;
+
+    width: 298px;
+    height: 611px;
+    border-radius: 8px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+    
+    text-align: center;
+
+    color: #000000;
+    margin: 80px 0 8px 0;
+    margin-top: 80px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    
+    text-align: center;
+    
+    color: #000000;
+
+    margin-bottom: 22px;
+}
+
+input{
+    width: 266px;
+    height: 36px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #006633;
+    box-sizing: border-box;
+    border-radius: 44px;
+
+    font-size: 16px;
+    line-height: 19px;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #55AE3A;
+
+    margin: 0 16px 33px 16px;
+    padding-left: 6px;
+}
+
+input[type="password"]{
+    margin-bottom: 2px;
+}
+
+#registration{
+
+    width: 133px;
+    height: 36px;
+
+    border-radius: 44px 0px 0px 44px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #55AE3A;
+
+    font-family: "Work Sans";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #006633;
+    margin: 0 -3px 29px 16px;
+}
+
+#login{
+    width: 133px;
+    height: 36px;
+
+    background: #006633;
+
+    border: 1px solid #55AE3A;
+    border-radius: 0px 44px 44px 0px;
+
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #FFFFFF;
+
+    margin-left: -3px;
+}
+
+#forgot-password{
+    
+}
