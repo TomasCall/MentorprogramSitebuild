@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./checkbox_style.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 <body>
     <div class="content">
         <form>
             <h1>Üdv újra!</h1>
             <h2>Lépj be a fiókodba</h2>
+
             <button id="registration">REGISZTRÁCIÓ</button>
             <button id="login">BELÉPÉS</button>
 
@@ -18,15 +21,18 @@
 
             <label id="forgot-password">Efelejtetted a jelszavad?</label>
 
-            <input type="checkbox">
-            <label>Emlékezz rám</label>
-
+            <div class="switch" id="my_checkbox">
+                <input id="switch-1" type="checkbox" class="switch-input" />
+                <label for="switch-1" class="switch-label">Switch</label>
+            </div>
+            <label id="remember">Emlékezz rám</label>
             <input type="submit" value="BEJELENTKEZÉS">
 
-            <label>VAGY</label>
-
-            <button></button>
-            <button></button>
+            <label id="or"><span>VAGY</label></label>
+            <div id="icon-div">
+                <button id="fb" class="icon-button"><i class="fab fa-facebook fa-2x"></i></button>
+                <button class="icon-button"><i class="fab fa-google fa-2x"></i></button>
+            </div>
         </form>
     </div>
 </body>
