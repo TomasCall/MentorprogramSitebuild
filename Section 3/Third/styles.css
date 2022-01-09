@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+#content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 456px;
+}
+
+.white{
+    font-size: 20px;
+    font-weight: 900;
+
+    line-height: 20px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+/*
+.text{
+    display: block;
+    margin-left: 5px;
+}
+*/
+.title-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    background-color: #006633;
+    color: white;
+    height: 32px;
+}
+
+.triangle1{
+    margin-left: auto;
+	width: 0;
+	height: 0;
+	border-width: 0 0 32px 24px;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+}
+
+.triangle2{
+    margin-right: auto;
+    width: 0;
+	height: 0;
+	border-width: 32px 24px 0 0;
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+}
+
+.datas{
+    margin: 0 9px 0 26px;
+}
+
+.data{
+    display: block;
+
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-bottom: 4px;
+
+    color: #006633;
+}
+
+.cards{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 15px;
+
+    background: #006633;
+    border-radius: 68px;
+
+    color:white;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin: 0 4px 4px 0;
+}
+
+#introduction-text{
+    text-align: justify;
+
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #006633;
+}
+
+img{
+    width: 234px;
+    height: 234px;
+
+    border: 10px solid #006633;
+    border-radius: 200px;
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #006633;
+}
+
+h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+
+    margin-bottom: 27px;
+
+    color: #006633;
+}
+
+i{
+    margin-right: 5px;
+}
