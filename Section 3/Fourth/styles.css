@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     box-sizing: border-box;
     
@@ -11,6 +12,7 @@
 #content{
     width: 1366px;
     height: 272px;
+
 
     position: absolute;
     top: 50%;
@@ -25,15 +27,17 @@
     width: 256px;
     height: 256px;
     border-radius: 200px;
-
-    margin-right: 18px;
+    margin: 8px 18px 8px 8px;
 }
 
 #left > h1 {
     margin-left: 44px;
+    margin-top: 16px;
 }
 
 #follow{
+    cursor: pointer;
+
     width: 138px;
     height: 51px;
     background: #006633;
@@ -42,8 +46,58 @@
     font-family: Work Sans;
     font-style: normal;
     font-weight: bold;
+    color: white;
+    text-transform: uppercase;
     font-size: 16px;
     line-height: 19px;
+
+    border: 0;
+
+    
+    margin: 17px 0 auto 98px;
+}
+
+.green-i:hover{
+    background: #55AE3A;
+}
+
+#follow:hover{
+    background-color: #55AE3A;
+}
+
+#right{
+    margin-left: 55px;
+}
+
+#right>p{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    margin: 13px 20px 10px 0;
+}
+
+
+
+#uls{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#left-ul{
+    margin-right: auto;
+}
+
+#right-ul{
+    margin-right: 60px;
+}
+
+.green-i{
+    background: #006633;
+}
+
+ul{
+    margin-top: 11px;
 }
 
 li{
@@ -52,7 +106,7 @@ li{
     font-size: 20px;
     line-height: 23px;
 
-    margin:19px 0 8px 0;
+    margin-bottom: 8px;
 }
 
 li > i{
@@ -67,4 +121,8 @@ li > i{
 
     background: #55AE3A;
     color: white;
+}
+
+i:hover{
+    background: #006633;
 }
