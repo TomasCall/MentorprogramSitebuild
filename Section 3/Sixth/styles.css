@@ -82,12 +82,11 @@
 }
 
 #mid-look-up{
-    margin: 86px 74px 89px 21px;
+    margin: 86px 0 89px 21px;
 }
 
 #abaout{
-
-    margin: 86px 0 89px 21px;
+    margin: 0 0 89px 21px;
 }
 
 #newsletter{
@@ -97,6 +96,16 @@
     line-height: 32px;
     display: inline-block;
     margin: 0;
+}
+
+#facebook{
+    font-size: 60px;
+    padding-top: 17px;
+}
+
+#mid-look-up-top{
+    display: flex;
+    flex-direction: row;
 }
 
 ::placeholder{
@@ -123,12 +132,16 @@
     flex-direction: row;
 }
 
+.icon-list > li{
+    margin: 0;
+}
+
 h1{
     white-space: nowrap;
 }
 
 ul{
-    margin-left: 25px;
+    margin: 22px 0 0 25px;
     list-style: none;
 }
 
@@ -193,4 +206,18 @@ input[type="text"]{
 
 li{
     font-size: 24px;
+}
+
+li > i {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+    padding-top: 12px;
+
+    background: #006633;
 }
