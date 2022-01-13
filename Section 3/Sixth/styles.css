@@ -24,25 +24,173 @@
 }
 
 #bottom{
+    width: 1920px;
+    height: 136px;
+
     display: flex;
     flex-direction: row;
+
+    background: #006633;
 }
 
 #mid{
-    width: 581px;
-    height: 1920px;
+    width: 1920px;
+    height: 581px;
+
+    display: flex;
+    flex-direction: row;
 
 }
 
 #mid-left{
+    /*
     height: 405px;
     width: 600px;
-    
+    */
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 38px;
+}
+
+#ad{
+    display: block;
+    height: 360px;
+    width: 600px;
+
+    margin: 131px auto 85px 0;
+}
+
+
+#form{
+
+    width: 500px;
+    height: 360px;
+
+    border-radius: 16px;
+
+    background-color: #006633;
+
+    margin: 131px 20px 85px 38px;
+
+    color: white;
+}
+
+
+#mid-content{
+    margin: 86px 74px 89px 21px;
+}
+
+#mid-look-up{
+    margin: 86px 74px 89px 21px;
+}
+
+#abaout{
+
+    margin: 86px 0 89px 21px;
+}
+
+#newsletter{
+    font-weight: bold;
+    font-size: 32px;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    margin: 0;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+
+
+.title{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.ul-h1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.icon-list{
     display: flex;
     flex-direction: row;
 }
 
-#ad{
-    height: 360px;
-    width: 600px;
+h1{
+    white-space: nowrap;
+}
+
+ul{
+    margin-left: 25px;
+    list-style: none;
+}
+
+button:hover{
+    background-color: green;
+}
+
+a{
+    color: white;
+}
+
+button{
+    cursor: pointer;
+
+    width: 240px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 36px;
+
+    background: #55AE3A;
+    color: white;
+    box-shadow: 0px 1px 2px #1E1E25, 0px 2px 4px #1E1E22;
+    border-radius: 44px;
+    border: 0;
+
+    margin: 30px 130px 36px 130px;
+
+    transition: 1s;
+}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    margin-left: 50px;
+}
+
+
+input[type="text"]{
+    display: block;
+
+    width: 400px;
+    height: 50px;
+
+    border: 2px solid #55AE3A;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-size: 29px;
+    line-height: 34px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    margin: 20px 50px;
+}
+
+li{
+    font-size: 24px;
 }
