@@ -31,6 +31,14 @@
     flex-direction: row;
 
     background: #006633;
+
+    font-size: 40px;
+    line-height: 47px;
+
+    /* identical to box height */
+
+    /* Fehér */
+    color: #FFFFFF;
 }
 
 #mid{
