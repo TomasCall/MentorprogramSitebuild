@@ -27,8 +27,11 @@
     width: 1920px;
     height: 136px;
 
+    /*
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    */
 
     background: #006633;
 
@@ -116,6 +119,27 @@
     flex-direction: row;
 }
 
+#cookie{
+    margin: 14px 367px 21px 296px;
+}
+
+#aszf{
+    margin: 14px 368px 21px 0;
+}
+
+#data-protection{
+    margin: 14px 100px 21px 0;
+}
+
+#page{
+    margin: 0 auto 16px auto;
+}
+
+#bottom-top{
+    display: flex;
+    flex-direction: row;
+}
+
 ::placeholder{
     color: black;
     opacity: 1;
@@ -144,6 +168,15 @@
     margin: 0;
 }
 
+.links{
+    display: block;
+    white-space: nowrap;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
 h1{
     white-space: nowrap;
 }
@@ -158,6 +191,7 @@ button:hover{
 }
 
 a{
+    cursor: pointer;
     color: white;
 }
 
@@ -216,7 +250,7 @@ li{
     font-size: 24px;
 }
 
-li > i {
+li > a > i {
     width: 80px;
     height: 80px;
     border-radius: 80px;
@@ -225,7 +259,89 @@ li > i {
     font-size: 50px;
     color: white;
 
-    padding-top: 12px;
+    margin-right: 8px;
+
+    padding-top: 15px;
 
     background: #006633;
+}
+
+li > a > i:hover{
+    background-color: #55AE3A;;
+}
+
+@media screen and (max-width: 1880px){
+    #mid{
+        height: auto;
+        flex-direction: column;
+    }
+    #mid-left{
+        margin: auto;
+    }
+    #ad{
+        width: 756px;
+        height: 425px;
+        margin: 20px auto;
+    }
+    #form{
+        width: 756px;
+        margin: 0 auto 20px auto;
+    }
+    input[type="text"]
+    {
+        margin: 19px 16px;
+        padding-left: 20px;
+        width: 724px;
+        height: 50px;
+        border-radius: 44px;
+    }
+    form > button{
+        margin: 30px auto 80px auto;
+    }
+    #bottom{
+        width: 100%;
+        font-size: 26px;
+
+    }
+    #cookie{
+        margin: 18px 20px 16px auto;
+    }
+    #aszf{
+        margin: 18px 20px 16px 0;
+    }
+    #data-protection{
+        margin: 18px auto 16px 20px;
+    }
+    #page{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 781px){
+    .links{
+        line-height: 14px;
+    }
+    #bottom{
+        height: 117px;
+        font-size: 12px;
+    }
+    #bottom-top{
+        flex-direction: column;
+    }
+    #cookie{
+        margin: 10px auto 0 auto;
+    }
+    #aszf{
+        margin: 10px auto 0 auto;
+    }
+    #data-protection{
+        margin: 10px auto 0 auto;
+    }
+    #page{
+        margin:10px auto 0 auto;
+    }
+    #ad{
+        width: 398px;
+        height: 88px;
+    }
 }
