@@ -131,8 +131,12 @@
     margin: 14px 100px 21px 0;
 }
 
-#page{
-    margin: 0 auto 16px auto;
+#bottom > a{
+    margin-left: 810px;
+}
+
+#page:hover{
+    text-decoration:underline;
 }
 
 #bottom-top{
@@ -313,7 +317,7 @@ li > a > i:hover{
         margin: 18px auto 16px 20px;
     }
     #page{
-        text-align: center;
+        margin-left: 386px;
     }
 }
 
@@ -355,8 +359,10 @@ li > a > i:hover{
         margin-bottom: 0;
     }
     #bottom{
+        width: 414px;
         height: 117px;
         font-size: 12px;
+        margin: auto;
     }
     #bottom-top{
         flex-direction: column;
@@ -370,8 +376,11 @@ li > a > i:hover{
     #data-protection{
         margin: 10px auto 0 auto;
     }
-    #page{
-        margin:10px auto 0 auto;
+    #bottom > a{
+        /*
+        margin:10px 0 0 152px;
+        */
+        margin:10px 0 150px 0;
     }
     #ad{
         width: 398px;
