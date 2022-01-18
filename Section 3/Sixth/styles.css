@@ -318,8 +318,41 @@ li > a > i:hover{
 }
 
 @media screen and (max-width: 781px){
+    #background{
+        width: 414px;
+        height: 38px;
+        margin: auto;
+        background-size: contain;
+    }
+    li{
+        font-size: 12px;
+    }
+    .ul-h1{
+        font-size: 16px;
+    }
+    ul{
+        margin-top: 0;
+    }
+    .icon-list > li >a >i{
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        padding-top: 6px;
+    }
     .links{
         line-height: 14px;
+    }
+    #facebook{
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        padding-top: 14px;
+    }
+    #mid-content{
+        margin-right: 0;
+    }
+    #abaout{
+        margin-bottom: 0;
     }
     #bottom{
         height: 117px;
@@ -343,5 +376,56 @@ li > a > i:hover{
     #ad{
         width: 398px;
         height: 88px;
+    }
+    #last{
+        text-align: center;
+
+    }
+    #form{
+        margin: 16px auto 20px auto;
+        border-radius: 4px;
+        width: 396px;
+        height: 164px;
+    }
+    #newsletter{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .title > i{
+        font-size: 30px;
+    }
+    .title{
+        height: 30px;
+        margin-top: 9px;
+    }
+    .title>h1{
+        margin: 9px 0 8px 10px;
+    }
+    input[type="text"]
+    {
+        margin: 0 16px 8px 16px;
+        padding-left: 10px;
+        width: 354px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 16px;
+        border-radius: 44px;
+    }
+    label{
+        display: none;
+    }
+    input[type="checkbox"]{
+        display: none;
+    }
+    form > button{
+        width: 171px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 23px;
+        margin: 11px auto ;
+    }
+    #bottom-input{
+        margin-bottom: 0;
     }
 }
