@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --darkgreen:#006633;
+    --lightgreen:#55AE3A;
+}
+
 *{
     box-sizing: border-box;
     
@@ -36,7 +41,7 @@
 }
 
 #follow:hover{
-    background-color: #55AE3A;
+    background-color: var(--lightgreen);
 }
 
 #right{
@@ -86,7 +91,7 @@
 
     width: 138px;
     height: 51px;
-    background: #006633;
+    background: var(--darkgreen);
     border-radius: 44px;
 
     font-family: Work Sans;
@@ -104,11 +109,11 @@
 }
 
 .green-i:hover{
-    background: #55AE3A;
+    background: var(--lightgreen);
 }
 
 .green-i{
-    background: #006633;
+    background: var(--darkgreen);
 }
 .top-icons{
     display: none;
@@ -140,12 +145,12 @@ i{
     font-size: 18px;
     padding-top: 6px;
 
-    background: #55AE3A;
+    background: var(--lightgreen);
     color: white;
 }
 
 i:hover{
-    background: #006633;
+    background: var(--darkgreen);
 }
 
 @media screen and (max-width:1356px){
