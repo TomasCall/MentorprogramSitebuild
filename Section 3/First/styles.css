@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+:root{
+    --darkgreen:#006633;
+    --lightgreen:#55AE3A;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -32,7 +38,7 @@ h1{
     
     text-align: center;
 
-    color: #000000;
+    color: black;
     margin: 80px 0 8px 0;
     margin-top: 80px;
 }
@@ -44,7 +50,7 @@ h2{
     
     text-align: center;
     
-    color: #000000;
+    color: black;
 
     margin-bottom: 22px;
 }
@@ -53,9 +59,9 @@ input{
     width: 266px;
     height: 36px;
 
-    background: #FFFFFF;
+    background: white;
 
-    border: 1px solid #006633;
+    border: 1px solid var(--darkgreen);
     box-sizing: border-box;
     border-radius: 44px;
 
@@ -64,7 +70,7 @@ input{
 
     font-feature-settings: 'pnum' on, 'lnum' on;
 
-    color: #55AE3A;
+    color: var(--lightgreen);
 
     margin: 0 16px 33px 16px;
     padding-left: 6px;
@@ -75,13 +81,13 @@ input[type="password"]{
 }
 
 input[type="submit"]{
-    background: #006633;
+    background: var(--darkgreen);
     border-radius: 44px;
 
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
 
-    color: #FFFFFF;
+    color: white;
 
     font-family: "Work Sans";
     font-style: normal;
@@ -100,7 +106,7 @@ input[type="submit"]{
 
     border: 0;
 
-    background: #006633;
+    background: var(--darkgreen);
     border-radius: 44px;
     color: white;
 
@@ -122,16 +128,16 @@ input[type="submit"]{
 
     border-radius: 44px 0px 0px 44px;
 
-    background: #FFFFFF;
+    background: white;
 
-    border: 1px solid #55AE3A;
+    border: 1px solid var(--lightgreen);
 
     font-family: "Work Sans";
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #006633;
+    color: var(--darkgreen);
     margin: 0 -3px 29px 16px;
 
     cursor: pointer;
@@ -141,9 +147,9 @@ input[type="submit"]{
     width: 133px;
     height: 36px;
 
-    background: #006633;
+    background: var(--darkgreen);
 
-    border: 1px solid #55AE3A;
+    border: 1px solid var(--lightgreen);
     border-radius: 0px 44px 44px 0px;
 
     font-family: "Work Sans";
@@ -154,7 +160,7 @@ input[type="submit"]{
 
     font-feature-settings: 'pnum' on, 'lnum' on;
 
-    color: #FFFFFF;
+    color: white;
 
     margin-left: -3px;
 
@@ -194,16 +200,14 @@ input[type="submit"]{
     font-size: 9px;
     line-height: 20px;
 
-    background-color: hotpink;
-
     letter-spacing: 0.07em;
     text-transform: uppercase;
 
-    color: #55AE3A;
+    color: var(--lightgreen);
 
     width: 100%; 
     text-align: center; 
-    border-bottom: 1px solid #55AE3A;
+    border-bottom: 1px solid var(--lightgreen);
     line-height: 0.1em;
 
 }
@@ -220,24 +224,24 @@ label span {
 }
 
 button:hover {
-    background-color: #55AE3A;
+    background-color: var(--lightgreen);
     color: white;
 }
 
 input[type="submit"]:hover{
-    background-color: #55AE3A;
+    background-color: var(--lightgreen);
     color: white;
     border: 0;
 }
 
 #registration:hover{
-    background-color: #55AE3A;
+    background-color: var(--lightgreen);
     color: white;
     border: 0;
 }
 
 #login:hover{
-    background-color: #55AE3A;
+    background-color: var(--lightgreen);
     color: white;
     border: 0;
 }
