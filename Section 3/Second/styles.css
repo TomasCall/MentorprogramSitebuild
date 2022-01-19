@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+:root{
+    --darkgreen:#006633;
+    --lightgreen:#55AE3A;
+    --verylightgreen:#B1DDC4;
+    --darkerwhite:#F2F2F2;
+}
 *{
     box-sizing: border-box;
     font-family: "Roboto";
@@ -14,11 +19,6 @@ div{
     align-items: center;
     text-align: center;
 }
-/*
-a > i{
-    float: left;
-}
-*/
 a{
     display: block;
     text-decoration: none;
@@ -30,12 +30,12 @@ input[type="search"]{
     height: 100%;
     padding: 19px;
 
-    background: #B1DDC4;
+    background: var(--verylightgreen);
 
     border: none;
     border-left: 1px white solid;
 
-    color: #006633;
+    color: var(--darkgreen);
     
     font-weight: bold;
     font-size: 31px;
@@ -44,7 +44,7 @@ input[type="search"]{
 }
 
 input[type="search"]::placeholder{
-    color: #55AE3A;
+    color: var(--lightgreen);
     opacity: 50%;
 
 }
@@ -55,7 +55,7 @@ input[type="date"]{
 }
 
 input[type="date"]{
-    background: #B1DDC4;
+    background: var(--verylightgreen);
     border-radius: 36px;
     
     margin: 0 auto 18px 0;
@@ -66,7 +66,7 @@ input[type="date"]{
     padding-left: 65px;
     border: 0;
 
-    color: #006633;
+    color: var(--darkgreen);
 }
 
 .icon{
@@ -74,7 +74,7 @@ input[type="date"]{
     height: 72px;
     border-radius: 40px;
 
-    background: #55AE3A;
+    background: var(--lightgreen);
 
 
     display: flex;
@@ -83,6 +83,10 @@ input[type="date"]{
 
     margin: 0 0 11px 21px;
 
+}
+
+.icon:hover{
+    background-color: yellowgreen;
 }
 
 .icon > i{
@@ -110,7 +114,7 @@ input[type="date"]{
     display: flex;
     flex-direction: row;
 
-    background: #006633;
+    background: var(--darkgreen);
 }
 
 .bottom{
@@ -118,7 +122,7 @@ input[type="date"]{
     flex-direction: row;
     height: 85px;
     width: 100%;
-    background-color: #006633;
+    background-color: var(--darkgreen);
 }
 
 .menu-points{
@@ -137,17 +141,12 @@ input[type="date"]{
     width: 849px;
     height: 80px;
 
-    background: #B1DDC4;
+    background: var(--verylightgreen);
 }
 
 #user{
     display: none;
 }
-/*
-.item{
-    cursor: pointer;
-}
-*/
 
 #img-logo{
     width: 260px;
@@ -182,7 +181,7 @@ input[type="date"]{
 #geralt{
     width: 64px;
     height: 64px;
-    border: 1px solid #F2F2F2;
+    border: 1px solid var(--darkerwhite);
     border-radius: 60px;
     margin-right: 8px;
     float: right;
@@ -208,7 +207,7 @@ input[type="date"]{
 
     margin: 0 14px 9px 0;
 
-    background: #B1DDC4;
+    background: var(--verylightgreen);
 
     border-radius: 44px;
 
@@ -218,9 +217,9 @@ input[type="date"]{
 #search-div > i{
     margin: 16px;
 
-    color: #006633;
+    color: var(--darkgreen);
 
-    margin: 0 0 11px 21px;
+    margin: 17px 12px 17px 15px;
 }
 
 #calendar{
@@ -230,8 +229,12 @@ input[type="date"]{
     width: 72px;
     height: 72px;
     border-radius: 72px;
-    background-color: #55AE3A;
+    background-color: var(--lightgreen);
     margin: 0 11px 11px 21px;
+}
+
+#calendar:hover{
+    background-color:yellowgreen;
 }
 
 @media screen and (max-width:1420px){
@@ -242,7 +245,6 @@ input[type="date"]{
         margin-right: auto;
     }
     .content{
-        /*width: 1157px;*/
         width: 100%;
         height: 85px;
     }
