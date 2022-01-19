@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --darkgreen:#006633;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -24,7 +29,7 @@
 .menus{
     display: flex;
     flex-direction: row;
-    background-color: #006633;
+    background-color: var(--darkgreen);
     color: white;
     height: 24px;
     width: 298px;
