@@ -12,7 +12,7 @@
     font-family: "Roboto";
 }
 
-#content{
+#sixth-content{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,13 +22,13 @@
     height: 850px;
 }
 
-#background{
+#sixth-background{
     height: 174px;
     width: 1920px;;
     background-image: url("./Frame_2120.png");
 }
 
-#bottom{
+#sixth-bottom{
     width: 1920px;
     height: 136px;
 
@@ -40,7 +40,7 @@
     color: white;
 }
 
-#mid{
+#sixth-mid{
     width: 1920px;
     height: 581px;
 
@@ -49,14 +49,14 @@
 
 }
 
-#mid-left{
+#sixth-mid-left{
     display: flex;
     flex-direction: row;
 
     margin-right: 38px;
 }
 
-#ad{
+#sixth-ad{
     display: block;
     height: 360px;
     width: 600px;
@@ -65,7 +65,7 @@
 }
 
 
-#form{
+#sixth-form{
 
     width: 500px;
     height: 360px;
@@ -80,19 +80,19 @@
 }
 
 
-#mid-content{
+#sixth-mid-content{
     margin: 86px 74px 89px 21px;
 }
 
-#mid-look-up{
+#sixth-mid-look-up{
     margin: 86px 0 89px 21px;
 }
 
-#abaout{
+#sixth-abaout{
     margin: 0 0 89px 21px;
 }
 
-#newsletter{
+#sixth-newsletter{
     font-weight: bold;
     font-size: 32px;
     height: 32px;
@@ -101,37 +101,37 @@
     margin: 0;
 }
 
-#facebook{
+#sixth-facebook{
     font-size: 60px;
     padding-top: 17px;
 }
 
-#mid-look-up-top{
+#sixth-mid-look-up-top{
     display: flex;
     flex-direction: row;
 }
 
-#cookie{
+#sixth-cookie{
     margin: 14px 367px 21px 296px;
 }
 
-#aszf{
+#sixth-aszf{
     margin: 14px 368px 21px 0;
 }
 
-#data-protection{
+#sixth-data-protection{
     margin: 14px 100px 21px 0;
 }
 
-#bottom > a{
+#sixth-bottom > a{
     margin-left: 810px;
 }
 
-#page:hover{
+#sixth-page:hover{
     text-decoration:underline;
 }
 
-#bottom-top{
+#sixth-bottom-top{
     display: flex;
     flex-direction: row;
 }
@@ -141,33 +141,33 @@
     opacity: 1;
 }
 
-.title{
+.sixth-title{
     margin: 0;
     padding: 0;
     margin-left: 50px;
 }
 
-.ul-h1{
+.sixth-ul-h1{
     font-weight: bold;
     font-size: 32px;
     line-height: 37px;
 }
 
-.icon-list{
+.sixth-icon-list{
     display: flex;
     flex-direction: row;
 }
 
-.icon-list > li{
+.sixth-icon-list > li{
     margin: 0;
 }
 
-.links{
+.sixth-links{
     display: block;
     white-space: nowrap;
 }
 
-.links:hover{
+.sixth-links:hover{
     text-decoration: underline;
 }
 
@@ -264,19 +264,19 @@ li > a > i:hover{
 }
 
 @media screen and (max-width: 1880px){
-    #mid{
+    #sixth-mid{
         height: auto;
         flex-direction: column;
     }
-    #mid-left{
+    #sixth-mid-left{
         margin: auto;
     }
-    #ad{
+    #sixth-ad{
         width: 756px;
         height: 425px;
         margin: 20px auto;
     }
-    #form{
+    #sixth-form{
         width: 756px;
         margin: 0 auto 20px auto;
     }
@@ -291,27 +291,27 @@ li > a > i:hover{
     form > button{
         margin: 30px auto 80px auto;
     }
-    #bottom{
+    #sixth-bottom{
         width: 100%;
         font-size: 26px;
 
     }
-    #cookie{
+    #sixth-cookie{
         margin: 18px 20px 16px auto;
     }
-    #aszf{
+    #sixth-aszf{
         margin: 18px 20px 16px 0;
     }
-    #data-protection{
+    #sixth-data-protection{
         margin: 18px auto 16px 20px;
     }
-    #page{
+    #sixth-page{
         margin-left: 386px;
     }
 }
 
 @media screen and (max-width: 781px){
-    #background{
+    #sixth-background{
         width: 414px;
         height: 38px;
         margin: auto;
@@ -320,81 +320,81 @@ li > a > i:hover{
     li{
         font-size: 12px;
     }
-    .ul-h1{
+    .sixth-ul-h1{
         font-size: 16px;
     }
     ul{
         margin-top: 0;
     }
-    .icon-list > li >a >i{
+    .sixth-icon-list > li >a >i{
         width: 40px;
         height: 40px;
         font-size: 25px;
         padding-top: 6px;
     }
-    .links{
+    .sixth-links{
         line-height: 14px;
     }
-    #facebook{
+    #sixth-facebook{
         width: 40px;
         height: 40px;
         font-size: 25px;
         padding-top: 14px;
     }
-    #mid-content{
+    #sixth-mid-content{
         margin-right: 0;
     }
-    #abaout{
+    #sixth-abaout{
         margin-bottom: 0;
     }
-    #bottom{
+    #sixth-bottom{
         width: 414px;
         height: 117px;
         font-size: 12px;
         margin: auto;
     }
-    #bottom-top{
+    #sixth-bottom-top{
         flex-direction: column;
     }
-    #cookie{
+    #sixth-cookie{
         margin: 10px auto 0 auto;
     }
-    #aszf{
+    #sixth-aszf{
         margin: 10px auto 0 auto;
     }
-    #data-protection{
+    #sixth-data-protection{
         margin: 10px auto 0 auto;
     }
-    #bottom > a{
+    #sixth-bottom > a{
         margin:10px 0 150px 0;
     }
-    #ad{
+    #sixth-ad{
         width: 398px;
         height: 88px;
     }
-    #last{
+    #sixth-last{
         text-align: center;
 
     }
-    #form{
+    #sixth-form{
         margin: 16px auto 20px auto;
         border-radius: 4px;
         width: 396px;
         height: 164px;
     }
-    #newsletter{
+    #sixth-newsletter{
         font-weight: bold;
         font-size: 20px;
         line-height: 23px;
     }
-    .title > i{
+    .sixth-title > i{
         font-size: 30px;
     }
-    .title{
+    .sixth-title{
         height: 30px;
         margin-top: 9px;
     }
-    .title>h1{
+    .sixth-title>h1{
         margin: 9px 0 8px 10px;
     }
     input[type="text"]
@@ -420,7 +420,7 @@ li > a > i:hover{
         line-height: 23px;
         margin: 11px auto ;
     }
-    #bottom-input{
+    #sixth-bottom-input{
         margin-bottom: 0;
     }
 }
