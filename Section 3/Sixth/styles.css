@@ -103,7 +103,7 @@
 
 #sixth-facebook{
     font-size: 60px;
-    padding-top: 17px;
+    padding-top: 21px;
 }
 
 #sixth-mid-look-up-top{
@@ -170,26 +170,27 @@
 .sixth-links:hover{
     text-decoration: underline;
 }
-
-h1{
+/*
+.sixth-h1{
     white-space: nowrap;
 }
+*/
 
-ul{
+.sixth-ul{
     margin: 22px 0 0 25px;
     list-style: none;
 }
 
-button:hover{
+.sixth-button:hover{
     background-color: green;
 }
 
-a{
+.sixth-a{
     cursor: pointer;
     color: white;
 }
 
-button{
+.sixth-button{
     cursor: pointer;
 
     width: 240px;
@@ -215,14 +216,13 @@ button{
 
     transition: 1s;
 }
-
-input[type="checkbox"]{
+.sixth-checkbox{
     width: 18px;
     height: 18px;
     margin-left: 50px;
 }
 
-input[type="text"]{
+.sixth-input-text{
     display: block;
 
     width: 400px;
@@ -239,7 +239,7 @@ input[type="text"]{
     margin: 20px 50px;
 }
 
-li{
+.sixth-li{
     font-size: 24px;
 }
 
@@ -258,8 +258,7 @@ li > a > i {
 
     background: var(--darkgreen);
 }
-
-li > a > i:hover{
+.sixth-li-a-i:hover{
     background-color: var(--lightgreen);
 }
 
@@ -280,7 +279,7 @@ li > a > i:hover{
         width: 756px;
         margin: 0 auto 20px auto;
     }
-    input[type="text"]
+    .sixth-input-text
     {
         margin: 19px 16px;
         padding-left: 20px;
@@ -288,7 +287,7 @@ li > a > i:hover{
         height: 50px;
         border-radius: 44px;
     }
-    form > button{
+    .sixth-button{
         margin: 30px auto 80px auto;
     }
     #sixth-bottom{
@@ -317,13 +316,13 @@ li > a > i:hover{
         margin: auto;
         background-size: contain;
     }
-    li{
+    .sixth-li{
         font-size: 12px;
     }
     .sixth-ul-h1{
         font-size: 16px;
     }
-    ul{
+    .sixth-ul{
         margin-top: 0;
     }
     .sixth-icon-list > li >a >i{
@@ -397,7 +396,7 @@ li > a > i:hover{
     .sixth-title>h1{
         margin: 9px 0 8px 10px;
     }
-    input[type="text"]
+    .sixth-input-text
     {
         margin: 0 16px 8px 16px;
         padding-left: 10px;
@@ -407,13 +406,13 @@ li > a > i:hover{
         line-height: 16px;
         border-radius: 44px;
     }
-    label{
+    .sixth-label{
         display: none;
     }
-    input[type="checkbox"]{
+    .sixth-checkbox{
         display: none;
     }
-    form > button{
+    .sixth-button{
         width: 171px;
         height: 40px;
         font-size: 20px;
