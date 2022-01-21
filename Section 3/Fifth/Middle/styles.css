@@ -11,7 +11,7 @@
     font-family: "Roboto";
 }
 
-.content{
+.fifth-middle-content{
     width: 298px;
     height: 273px;
     position: absolute;
@@ -20,13 +20,13 @@
     transform: translate(-50%,-50%);
 }
 
-.menu{
+.fifth-middle-menu{
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.menus{
+.fifth-middle-menus{
     display: flex;
     flex-direction: row;
     background-color: var(--darkgreen);
@@ -35,7 +35,7 @@
     width: 298px;
 }
 
-.triangle1{
+.fifth-middle-triangle1{
     margin-left: 10px;
 	width: 0;
 	height: 0;
@@ -44,7 +44,7 @@
 	border-style: solid;
 }
 
-.triangle2{
+.fifth-middle-triangle2{
     margin-right: 0;
     width: 0;
 	height: 0;
@@ -55,7 +55,7 @@
 
 
 
-#time{
+.fifth-middle-time{
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -66,7 +66,7 @@
     text-align: left;
 }
 
-#date{
+.fifth-middle-date{
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -75,29 +75,29 @@
     margin-right: 5px;
 }
 
-#sport{
+.fifth-middle-sport{
 
     background-color: white;
     color: black;
 }
-#profil-pic{
+.fifth-middle-profil-pic{
     width: 40px;
     height: 40px;
 
     border-radius: 40px;
 }
 
-#text{
+.fifth-middle-text{
     width: auto;
 }
 
-#title{
+.fifth-middle-title{
     display: flex;
     flex-direction: row;
 
 }
 
-#title-paragraph-top{
+.fifth-middle-title-paragraph-top{
     margin: 5px;
 
     font-weight: 900;
@@ -107,7 +107,7 @@
     overflow: hidden;
 }
 
-#profil{
+.fifth-middle-profil{
     text-align: left;
     margin: 10px;
     width: 40px;
@@ -116,12 +116,12 @@
 }
 
 
-img{
+.fifth-middle-img{
     width: 298px;
     height: 168px;
     margin-bottom: -4px;
 }
-i{
+.fifth-middle-i{
     font-size: 18px;
     margin-right: 5px;
 }
