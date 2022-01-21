@@ -19,7 +19,7 @@ body{
     height: 100%;
 }
 
-#content{
+#third-content{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,7 +28,7 @@ body{
     width: 456px;
 }
 
-.white{
+.third-white{
     font-size: 20px;
     font-weight: 900;
 
@@ -41,13 +41,13 @@ body{
     color: black;
 }
 
-.title-text{
+.third-title-text{
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.title{
+.third-title{
     display: flex;
     flex-direction: row;
     background-color: var(--darkgreen);
@@ -55,7 +55,7 @@ body{
     height: 32px;
 }
 
-.triangle1{
+.third-triangle1{
     margin-left: auto;
 	width: 0;
 	height: 0;
@@ -64,7 +64,7 @@ body{
 	border-style: solid;
 }
 
-.triangle2{
+.third-triangle2{
     margin-right: auto;
     width: 0;
 	height: 0;
@@ -73,11 +73,11 @@ body{
 	border-style: solid;
 }
 
-.datas{
+.third-datas{
     margin: 0 9px 0 26px;
 }
 
-.data{
+.third-data{
     display: block;
 
     font-weight: normal;
@@ -89,7 +89,7 @@ body{
     color: var(--darkgreen);
 }
 
-.cards{
+.third-cards{
     margin-top: 8px;
     display: flex;
     flex-direction: row;
@@ -97,7 +97,7 @@ body{
     flex-wrap: wrap;
 }
 
-.card{
+.third-card{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -115,7 +115,7 @@ body{
     margin: 0 4px 4px 0;
 }
 
-#introduction-text{
+#third-introduction-text{
     text-align: justify;
 
     font-size: 24px;
