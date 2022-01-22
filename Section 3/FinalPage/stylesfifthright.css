@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+    --darkgreen:#006633;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.fifth-right-content{
+    width: 614px;
+    height: 168px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fifth-right-menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.fifth-right-menus{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--darkgreen);
+    color: white;
+    height: 38px;
+    width: 316px;
+
+    margin-top: 18px;
+}
+
+.fifth-right-triangle1{
+    margin-left: 10px;
+	width: 0;
+	height: 0;
+	border-width: 0 0 38px 24px;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+}
+
+.fifth-right-triangle2{
+    margin-right: 0;
+    width: 0;
+	height: 0;
+	border-width: 38px 24px 0 0;
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+}
+
+
+
+.fifth-right-time{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+
+    margin-right: auto;
+
+    text-align: left;
+}
+
+.fifth-right-date{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.fifth-right-sport{
+
+    background-color: white;
+    color: black;
+}
+
+.fifth-right-text{
+    width: auto;
+}
+
+.fifth-right-title{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fifth-right-title-paragraph-top{
+    margin: 5px;
+
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform:uppercase;
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.fifth-right-title-paragraph-bottom{
+    margin: 10px;
+
+    font-size: 16px;
+    line-height: 126%;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.fifth-right-profil{
+    text-align: left;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+
+.fifth-right-img{
+    width: 298px;
+    height: 168px;
+    margin-bottom: -4px;
+}
+.fifth-right-i{
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 5px;
+}

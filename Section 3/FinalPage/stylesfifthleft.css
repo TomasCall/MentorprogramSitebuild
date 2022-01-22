@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+    --darkgreen:#006633;
+    --lightgreen:#55AE3A;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.fifth-left-content{
+    width: 614px;
+    height: 561px;
+}
+
+.fifth-left-menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.fifth-left-menus{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--darkgreen);
+    color: white;
+    height: 38px;
+    width: 614px;
+}
+
+.fifth-left-triangle1{
+    margin-left: 10px;
+	width: 0;
+	height: 0;
+	border-width: 0 0 39px 24px;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+}
+
+.fifth-left-triangle2{
+    width: 0;
+	height: 0;
+	border-width: 38px 24px 0 0;
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+}
+
+
+
+.fifth-left-time{
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: auto;
+}
+
+.fifth-left-time > i{
+    font-size: 29px;
+}
+
+.fifth-left-date{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.fifth-left-sport{
+
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.fifth-left-text{
+    width: 614px;
+
+}
+
+.fifth-left-title{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fifth-left-title-paragraph-top{
+    margin: 4px 32px 0px 0px;    
+
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform:uppercase;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.fifth-left-profil{
+    text-align: left;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid var(--lightgreen)
+}
+
+.fifth-left-title-paragraph-bottom{
+    font-size: 22px;
+    line-height: 126%;
+
+    text-align: justify;
+
+    margin: 8px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.fifth-left-img{
+    width: 614px;
+    height: 310px;
+}
+
+.fifth-left-i{
+    font-size: 16px;
+    margin-right: 5px;
+}

@@ -1,0 +1,120 @@
+:root{
+    --darkgreen:#006633;
+    --lightgreen:#55AE3A;
+}
+#final-content{
+    display: flex;
+    flex-direction: row;
+}
+.final-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.final-right{
+    margin-top: 16px;
+}
+
+.final-right-top{
+    display: flex;
+    flex-direction: row;
+}
+.final-right-mid{
+    display: flex;
+    flex-direction: row;
+}
+.final-right-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+#third-content{
+    margin:24px 184px 356px 184px;
+}
+
+.margin{
+    margin: 0 18px 15px 0;
+}
+
+
+.final-third-white{
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: 900;
+
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.final-third-title-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.final-third-title{
+    width: 930px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--darkgreen);
+    color: white;
+    height: 57px;
+    margin-bottom: 4px;
+}
+
+.final-third-triangle1{
+    margin-left: auto;
+	width: 0;
+	height: 0;
+	border-width: 0 0 57px 24px;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+}
+
+.final-third-triangle2{
+    margin-right: auto;
+    width: 0;
+	height: 0;
+	border-width: 57px 24px 0 0;
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+}
+.final-third-i{
+    margin-right: 5px;
+}
+
+.final-icons-div{
+    background-color: var(--darkgreen);
+    border-radius: 80px;
+    margin: 24px 0 16px 0;
+}
+.final-most-right-i{
+    display: flex;
+    background-color: var(--darkgreen);
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    font-size: 42px;
+    color: white;
+}
+.final-icons{
+    margin-left: 32px;
+}
+
+.save{
+    margin-bottom: 348px;
+}
+
+.settings{
+    margin-bottom: 24px;
+}
+.final-hover:hover{
+    background-color: var(--lightgreen);
+}

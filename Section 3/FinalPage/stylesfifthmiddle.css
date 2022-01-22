@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --darkgreen:#006633;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.fifth-middle-content{
+    width: 298px;
+    height: 273px;
+}
+
+.fifth-middle-menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.fifth-middle-menus{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--darkgreen);
+    color: white;
+    height: 24px;
+    width: 298px;
+}
+
+.fifth-middle-triangle1{
+    margin-left: 10px;
+	width: 0;
+	height: 0;
+	border-width: 0 0 38px 24px;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+}
+
+.fifth-middle-triangle2{
+    margin-right: 0;
+    width: 0;
+	height: 0;
+	border-width: 38px 24px 0 0;
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+}
+
+
+
+.fifth-middle-time{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    margin-right: auto;
+
+    text-align: left;
+}
+
+.fifth-middle-date{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.fifth-middle-sport{
+
+    background-color: white;
+    color: black;
+}
+.fifth-middle-profil-pic{
+    width: 40px;
+    height: 40px;
+
+    border-radius: 40px;
+}
+
+.fifth-middle-text{
+    width: auto;
+}
+
+.fifth-middle-title{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fifth-middle-title-paragraph-top{
+    margin: 4px;
+
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform:uppercase;
+    overflow: hidden;
+}
+
+.fifth-middle-profil{
+    text-align: left;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+
+.fifth-middle-img{
+    width: 298px;
+    height: 168px;
+    margin-bottom: -4px;
+}
+.fifth-middle-i{
+    font-size: 18px;
+    margin-right: 5px;
+}

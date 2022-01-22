@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+    --darkgreen:#006633;
+    --lightgreen:#55AE3A;
+    --verylightgreen:#B1DDC4;
+    --darkerwhite:#F2F2F2;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+.sixth-div{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="search"]{
+    width: 100%;
+    height: 100%;
+    padding: 19px;
+
+    background: var(--verylightgreen);
+
+    border: none;
+    border-left: 1px white solid;
+
+    color: var(--darkgreen);
+    
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 36px;
+
+}
+
+input[type="search"]::placeholder{
+    color: var(--lightgreen);
+    opacity: 50%;
+
+}
+
+input[type="date"]{
+    width: 268px;
+    height: 62px;
+}
+
+input[type="date"]{
+    background: var(--verylightgreen);
+    border-radius: 36px;
+    
+    margin: 0 auto 18px 0;
+
+    font-size: 20px;
+    line-height: 22px;
+
+    padding-left: 65px;
+    border: 0;
+
+    color: var(--darkgreen);
+}
+
+.second-icon{
+    width: 72px;
+    height: 72px;
+    border-radius: 40px;
+
+    background: var(--lightgreen);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 11px 21px;
+
+}
+
+.second-icon:hover{
+    background-color: yellowgreen;
+}
+
+.second-icon > i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.second-wrapper{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-top{
+    width: 100%;
+    height: 85px;
+
+    display: flex;
+    flex-direction: row;
+
+    background: var(--darkgreen);
+}
+
+.second-bottom{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    width: 100%;
+    background-color: var(--darkgreen);
+}
+
+.second-menu-points{
+    margin-right: 10px;
+}
+
+.second-icons-icon{
+    margin-right: 24px;
+}
+
+.second-item:hover{
+    text-decoration: underline;
+}
+
+#second-search-div{
+    width: 849px;
+    height: 80px;
+
+    background: var(--verylightgreen);
+}
+
+#second-user{
+    display: none;
+}
+
+#second-img-logo{
+    width: 260px;
+    height: 46px;
+}
+
+#second-menu{
+    margin: 0 19px 0 26px;
+    cursor: pointer;
+}
+
+#second-logo{
+    margin-right: 23px;
+}
+
+#second-interview{
+    margin-right: 37px ;
+}
+
+#second-portraits{
+    margin-right: 36px;
+}
+
+#second-analyzes{
+    margin-right: 43px;
+}
+
+#second-culture{
+    margin-right: auto;
+}
+
+#second-geralt{
+    width: 64px;
+    height: 64px;
+    border: 1px solid var(--darkerwhite);
+    border-radius: 60px;
+    margin-right: 8px;
+    float: right;
+}
+
+#second-detriot{
+    width: 48px;
+    height: 48px;
+}
+
+#second-ryan{
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+}
+
+#second-bottom-icon{
+    margin-right: auto;
+}
+
+#second-search-div{
+    max-width: 849px;
+
+    margin: 0 14px 9px 0;
+
+    background: var(--verylightgreen);
+
+    border-radius: 44px;
+
+    overflow: hidden;
+}
+
+#second-search-div > i{
+    margin: 16px;
+
+    color: var(--darkgreen);
+
+    margin: 17px 12px 17px 15px;
+}
+
+#second-calendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 72px;
+    background-color: var(--lightgreen);
+    margin: 0 11px 11px 21px;
+}
+
+#second-calendar:hover{
+    background-color:yellowgreen;
+}
+
+@media screen and (max-width:1420px){
+    .second-hidden{
+        display: none;
+    }
+    #second-logo{
+        margin-right: auto;
+    }
+    .second-content{
+        width: 100%;
+        height: 85px;
+    }
+    #second-last-icon{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+}
+
+@media screen and (max-width:679px) {
+    #second-icons{
+        display: none;
+    }
+    #second-logo{
+        margin: auto;
+    }
+    #second-user{
+        display: block;
+    }
+}
