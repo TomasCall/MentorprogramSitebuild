@@ -36,8 +36,7 @@
 }
 
 #left > h1 {
-    margin-left: 44px;
-    margin-top: 16px;
+    margin: 16px 0 0 44px;
 }
 
 #follow:hover{
