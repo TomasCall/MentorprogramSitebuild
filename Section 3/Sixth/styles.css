@@ -17,19 +17,20 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
-    width: 1920px;
+    /*width: 1920px;*/
+    width: 100%;
     height: 850px;
 }
 
 #sixth-background{
     height: 174px;
-    width: 1920px;;
+    /*width: 1920px;*/
+    width: 100%;
     background-image: url("./Frame_2120.png");
 }
 
 #sixth-bottom{
-    width: 1920px;
+    width: 100%;
     height: 136px;
 
     background: var(--darkgreen);
@@ -41,11 +42,14 @@
 }
 
 #sixth-mid{
-    width: 1920px;
+    /*width: 1920px;*/
+    width: 100%;
     height: 581px;
-
     display: flex;
     flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -61,7 +65,7 @@
     height: 360px;
     width: 600px;
 
-    margin: 131px auto 85px 0;
+    margin: 131px 38px 85px 0;
 }
 
 
@@ -112,19 +116,28 @@
 }
 
 #sixth-cookie{
+    /*
     margin: 14px 367px 21px 296px;
+    */
+    margin: auto;
 }
 
 #sixth-aszf{
+    /*
     margin: 14px 368px 21px 0;
+    */
+    margin: auto;
 }
 
 #sixth-data-protection{
+    /*
     margin: 14px 100px 21px 0;
+    */
+    margin: auto;
 }
 
-#sixth-bottom > a{
-    margin-left: 810px;
+#sixth-page{
+    text-align: center;
 }
 
 #sixth-page:hover{
@@ -296,22 +309,22 @@ li > a > i {
 
     }
     #sixth-cookie{
-        margin: 18px 20px 16px auto;
+        margin: auto
     }
     #sixth-aszf{
-        margin: 18px 20px 16px 0;
+        margin: auto
     }
     #sixth-data-protection{
-        margin: 18px auto 16px 20px;
+        margin: auto;
     }
     #sixth-page{
-        margin-left: 386px;
+        margin-left: auto
     }
 }
 
 @media screen and (max-width: 781px){
     #sixth-background{
-        width: 414px;
+        width: 100%;
         height: 38px;
         margin: auto;
         background-size: contain;
@@ -347,7 +360,7 @@ li > a > i {
         margin-bottom: 0;
     }
     #sixth-bottom{
-        width: 414px;
+        width: 100%;
         height: 117px;
         font-size: 12px;
         margin: auto;
@@ -356,16 +369,16 @@ li > a > i {
         flex-direction: column;
     }
     #sixth-cookie{
-        margin: 10px auto 0 auto;
+        margin: auto;
     }
     #sixth-aszf{
-        margin: 10px auto 0 auto;
+        margin: auto;
     }
     #sixth-data-protection{
-        margin: 10px auto 0 auto;
+        margin: auto;
     }
-    #sixth-bottom > a{
-        margin:10px 0 150px 0;
+    #sixth-page{
+        text-align: center;
     }
     #sixth-ad{
         width: 398px;
