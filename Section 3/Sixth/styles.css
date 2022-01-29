@@ -369,15 +369,16 @@ li > a > i {
         flex-direction: column;
     }
     #sixth-cookie{
-        margin: auto;
+        margin: 11px auto 0 auto;
     }
     #sixth-aszf{
-        margin: auto;
+        margin: 11px auto 0 auto;
     }
     #sixth-data-protection{
-        margin: auto;
+        margin: 11px auto 0 auto;
     }
     #sixth-page{
+        margin-top: 11px;
         text-align: center;
     }
     #sixth-ad{
